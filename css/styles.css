@@ -194,7 +194,7 @@ p { font-weight: 300; }
 nav ul { list-style: none; padding: 0; }
 nav ul li a { color: rgba(255, 255, 255, 0.6); padding: 20px; display: block; border-bottom: 1px dotted rgba(255, 255, 255, 0.2); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 0; position: relative; }
 nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decoration: none; }
-.nav-button { background-color: #ffaf1b; padding-top: 5%; padding-right: 15%; }
+.nav-button { background-color: #ffaf1b; padding-top: 5%; padding-right: 15%; position: absolute; top: 2rem; right: 2rem; z-index: 99; }
 .indicator { position: absolute; right: 0 !important; }
 .pull { display: none; }
 .hero { background: url('../img/hero.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0; height: auto; }

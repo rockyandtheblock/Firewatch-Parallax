@@ -97,5 +97,5 @@
     display: block;
   }
 
-  .nav-button { background-color: rgb(255, 162, 28); padding-top: 5%; padding-right: 8%; }
+  .nav-button { background-color: rgb(255, 162, 28); padding-top: 5%; padding-right: 8%; top: 1rem; right: 1rem; }
 }

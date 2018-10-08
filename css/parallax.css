@@ -1,0 +1,101 @@
+.main-content {
+  position: relative;
+  z-index: 98;
+}
+
+.parallax {
+  position: relative;
+  z-index: 10;
+}
+
+.parallax-background {
+  height: 1000px;
+  background-color: #ffaf1b;
+}
+
+.absolute {
+  position: absolute;
+}
+
+#parallax {
+  height: 1000px;
+  overflow: hidden;
+  position: relative;
+}
+
+.layer {
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: fixed;
+}
+
+#hero-mobile {
+  display: none;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/272781/full_illustration.png") no-repeat center bottom/cover;
+  height: 100vh;
+}
+
+#parallax, .layer {
+  min-height: 1000px;
+}
+
+.layer-0 {
+  background-image: url("../img/parallax/parallax0.png");
+  background-position: top center;
+  background-size: cover;
+  background-color: #ffaf1b;
+}
+
+.layer-1 {
+  background-image: url("../img/parallax/parallax1.png");
+}
+
+.layer-2 {
+  background-image: url("../img/parallax/parallax2.png");
+}
+
+.layer-3 {
+  background-image: url("../img/parallax/parallax3.pn");
+}
+
+.layer-4 {
+  background-image: url("../img/parallax/parallax4.png");
+}
+
+.layer-5 {
+  background-image: url("../img/parallax/parallax5.png");
+}
+
+.layer-6 {
+  background-image: url("../img/parallax/parallax6.png");
+}
+
+.layer-7 {
+  background-image: url("../img/parallax/parallax7.png");
+}
+
+.layer-8 {
+  background-image: url("../img/parallax/parallax8.png");
+}
+
+.no-padding {
+  padding: 0 0;
+}
+
+.no-margin {
+  margin: 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #parallax {
+    display: none;
+  }
+
+  #hero-mobile {
+    display: block;
+  }
+
+  .nav-button { background-color: #ffaf1b; padding-top: 5%; padding-right: 8%; }
+}
